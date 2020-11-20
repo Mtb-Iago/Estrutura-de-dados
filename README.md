@@ -16,3 +16,4 @@
 - [X] [FELIPE ROCHA](https://github.com/Mtb-Iago) 
 - [X] [HIGOR LEMOS](https://github.com/Mtb-Iago) 
 - [X] [DEMETRIUS SEGUNDO](https://github.com/Mtb-Iago) 
+- [x] [JOÃO FERREIRA](https://github.com/johnnyfers)
