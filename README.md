@@ -13,7 +13,7 @@
 ### TIME RESPONSÁVEL
 - [X] [IAGO OLIVEIRA](https://github.com/Mtb-Iago) 
 - [X] [YULLO BOMFIM](https://github.com/yullobomfim) 
-- [X] [FELIPE ROCHA](https://github.com/Mtb-Iago) 
-- [X] [HIGOR LEMOS](https://github.com/Mtb-Iago) 
+- [X] [FELIPE ROCHA](https://github.com/lipe474) 
+- [X] [HIGOR LEMOS](https://github.com/Higor23) 
 - [X] [DEMETRIUS SEGUNDO](https://github.com/Mtb-Iago) 
 - [x] [JOÃO FERREIRA](https://github.com/johnnyfers)
