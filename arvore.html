@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+    <title>ESTRUTURA - ÁRVORE</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body style="background-color: #e958582b;">
+    <header>
+        <div id='cssmenu'>
+            <ul>
+                <li><a href="fila.html">FILA</a></li>
+                <li><a href="pilha.html">PILHA</a></li>
+
+                <li><a href="lista.html">LISTA</a></li>
+                <li class='active'><a href="arvore.html">ÁRVORES RUBRO-NEGRAS</a></li>
+
+            </ul>
+        </div>
+
+    </header>
+    <div id="enuciado">
+        <h4><b>INSTITUTO FEDERAL DA BAHIA / CAMPUS VITÓRIA DA CONQUISTA</h4>
+        <h4><b>CURSO: BACHAREL EM SISTEMAS DE INFORMAÇÃO - SEMESTRE: 2020.1</h4>
+        <h4><b>PROFESSOR: CLAUDIO RODOLFO SOUSA DE OLIVEIRA</h4>
+        <h3>*Fazer um estudo e implementação de pelo menos 3
+            estruturas de dados utilizadas nativamente por linguagens de programação. </h3>
+    </div>
+
+    <h1 id="cabecalho-trabalho">ESTRUTURA DE DADOS - ÁRVORE</h1>
+
+    <div id="discentes">
+        <div id="aluno">
+            <div id="foto">
+                <img src="img/foto.jpg" alt="IAGO" width="200px" height="200px">
+            </div>
+            <h5>Iago da Silva Oliveira</h5>
+            <h5>MATRÍCULA Nº: 2019119009</h5>
+        </div>
+        <div id="aluno">
+            <div id="foto">
+                <img src="img/foto.jpg" alt="IAGO" width="200px" height="200px">
+            </div>
+            <h5>Yullo Costa Bomfim</h5>
+            <h5>MATRÍCULA Nº: 2019000000</h5>
+        </div>
+
+        <div id="aluno">
+            <div id="foto">
+                <img src="img/foto.jpg" alt="IAGO" width="200px" height="200px">
+            </div>
+            <h5>Demetrius Araujo Dias Segundo</h5>
+            <h5>MATRÍCULA Nº: 2019000000</h5>
+        </div>
+
+        <div id="aluno">
+            <div id="foto">
+                <img src="img/foto.jpg" alt="IAGO" width="200px" height="200px">
+            </div>
+            <h5>João Victor Lima Ferreira</h5>
+            <h5>MATRÍCULA Nº: 2019000000</h5>
+        </div>
+
+        <div id="aluno">
+            <div id="foto">
+                <img src="img/foto.jpg" alt="IAGO" width="200px" height="200px">
+            </div>
+            <h5>Felipe Ferreira Rocha</h5>
+            <h5>MATRÍCULA Nº: 2019000000</h5>
+        </div>
+
+        <div id="aluno">
+            <div id="foto">
+                <img src="img/foto.jpg" alt="IAGO" width="200px" height="200px">
+            </div>
+            <h5>Higor Lemos do Prado</h5>
+            <h5>MATRÍCULA Nº: 2019000000</h5>
+        </div>
+
+        <div id="aluno">
+            <div id="foto">
+                <img src="img/foto.jpg" alt="IAGO" width="200px" height="200px">
+            </div>
+            <h5>João Pedro Amorim Fortunato da Luz</h5>
+            <h5>MATRÍCULA Nº: 2019000000</h5>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="arvore">
+            <h1>ESTRUTURA - ÁRVORE</h1>
+        </div>
+
+        <div id="buttonEnter">
+            <input type="text" style="margin-top: 10PX;width: 280px;height: 50px;" id="name"
+                placeholder="ENTRE COM UM DADO PARA A ÁRVORE" autocomplete="off">
+
+            <button id="send" class="success" style="margin-bottom: 15px;">INSERIR NO INICIO DA ÁRVORE</button>
+            <button id="sendFim" class="success" style="margin-bottom: 15px;">INSERIR NO FIM DA ÁRVORE</button>
+            <button id="remover" name="remover" onclick="Mudarestado('esconder')" class="danger">EXCLUIR ITEM DA
+                ÁRVORE</button>
+        </div>
+
+        <div class="houses" id="esconder">
+            <div id="text">
+            </div>
+        </div>
+    </div>
+
+    <div id="codigo">
+        <div id="codigoItem">
+            <code>
+                <p class="introducao">CÓDIGO DA ESTRUTURA DE DADOS - ÁRVORE</p>
+                <p class="comentario">//EXECUTE O ARQUIVO </p>
+                <p class="comentario">//COPIE O CÓDIGO EM UM ARQUIVO JS </p>
+                <p class="comentario">//ABRA O TERMINAL E COLOQUE node *nomedoarquivojscriado* </p>
+                <br>
+
+                <pre>
+
+                </pre>
+            </code>
+        </div>
+    </div>
+
+    <div id="slide">
+        <div id="conteudo">
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="#" style="width: 100%;">
+                    <div class="text">Exemplo de árvore - 1</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="#" style="width: 100%;">
+                    <div class="text">Exemplo de árvore - 2</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="# style="width: 100%;">
+                    <div class="text">Exemplo de árvore - 3</div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="#" style="width: 100%;">
+                    <div class="text">Exemplo de árvore - 4</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="js/header.js"></script>
+<script src="js/arvore.js"></script>
+<script src="js/slideshow.js"></script>
