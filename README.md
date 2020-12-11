@@ -17,3 +17,4 @@
 - [X] [HIGOR LEMOS](https://github.com/Higor23) 
 - [X] [DEMETRIUS SEGUNDO](https://github.com/Mtb-Iago) 
 - [x] [JOÃO FERREIRA](https://github.com/johnnyfers)
+- [x] [JOÃO PEDRO LUZ](https://github.com/JoaoPedroLuz57)
