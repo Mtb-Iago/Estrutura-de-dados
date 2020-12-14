@@ -196,6 +196,7 @@ $("#send").addEventListener("click", e => { // CLICANDO EM INSERIR ITEM
   }
 
   generateTree()
+  alert("Visualize no console.log de seu navegador...")
 })
 
 $("#remover").addEventListener("click", e => { // CLICANDO EM INSERIR ITEM
@@ -211,6 +212,7 @@ $("#remover").addEventListener("click", e => { // CLICANDO EM INSERIR ITEM
   }
 
   generateTree()
+  alert("Visualize no console.log de seu navegador...");
 })
 
 function generateTree() {
