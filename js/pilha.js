@@ -14,6 +14,7 @@ const Pilha = () => {
     const push = (value) => { //EMPILHAR 
         top++
         data.push(value)
+        msg = true
 
     }
     const pop = () => { //DESEMPILHAR
